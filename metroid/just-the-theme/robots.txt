@@ -1,0 +1,4 @@
+Sitemap: http://www.tbirdal.me/sitemap.xml
+User-agent: *
+Disallow: /images
+Disallow: /assets
