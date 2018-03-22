@@ -63,7 +63,8 @@
                             <h3>News</h3>
       
   <ul style="background-color:#000000">
-  <p><li style="background-color:#000000"><a href="https://mvr3d.github.io" style="background-color:#000000">- I am co-organizing the ICCV 2017 Workshop on Multiview Relationships in 3D Data.</a></li><p>
+  <p><li style="background-color:#000000"><a href="https://mvr3d.github.io" style="background-color:#000000">- I happily co-organized ICCV 2017 Workshop on Multiview Relationships in 3D Data.</a></li><p>
+      <p><li style="background-color:#000000"><a href="http://www.imveurope.com/features/feature.php?feature_id=327" style="background-color:#000000">- Rethinking 3D Vision - IMV Europe Opinion Analysis.</a></li><p>
     <p><li style="background-color:#000000"><a href="http://www.imveurope.com/features/feature.php?feature_id=327" style="background-color:#000000">- My interview on IMV Europe.</a></li><p>
    <p> <li style="background-color:#000000"><article style="background-color:#000000"><a href="http://www.vision-systems.com/articles/2016/06/emva-2016-young-profesional-award-given-for-3d-reconstruction-framework.html" style="background-color:#000000">- I received EMVA Young Profesional Award 2016.</a></article></li><p>
   </ul>
@@ -154,8 +155,14 @@
 							<div class="col c2-1 first">
 								<h4>Employment</h4>
 								<ul class="attributes">
+                                    <li class="first">
+                                    <h5>PhD Candidate<span class="period">2014 - Present</span></h5>
+										<h6><i class="fa fa-suitcase"></i>Siemens AG</h6>
+                                        <p>Siemens proudly sponsors my PhD studies on 3D object detection and reconstruction using CAD models.
+										</p>
+                                        </li>
 									<li class="first">
-										<h5>Co-Founder & CEO <span class="period">2011 - Present</span></h5>
+                                        <h5>Co-Founder & CEO <span class="period">2011 - 2014</span></h5>
 										<h6><i class="fa fa-suitcase"></i>Gravi Information Technologies and Consultancy Ltd.</h6>
 										<p>Gravi Information Technologies and Consultancy Ltd is a Turkish start-up company founded in 2010 by a group of electronics and computer engineers (including myself) experienced in computer vision and computer graphics areas.
 Gravi is supported by KOSGEB, which is a government organization supporting small and medium sized enterprises in Turkey, under the R & D Support Program.</p>
@@ -203,6 +210,11 @@ Implementation of true real-time Bilateral Filtering</p>
 							</div>
 
 							<div class="col c2-1">
+                                <h4>Download My Resume</h4>
+								<button class="btn" onClick="window.open('downloads/tolga-birdal-cv.pdf');" type="submit">
+                                    <i class="fa fa-cloud-download"></i> Download as .PDF</button>
+                                <ul class="attributes"></ul>
+                                
 								<h4>Education</h4>
 								<ul class="attributes last">
 									<li class="first">
@@ -232,6 +244,7 @@ Implementation of true real-time Bilateral Filtering</p>
 										<p>This is the place where my first step to academic life was taken.</p>
 									</li>
 								</ul>
+                                
 								<h4>Software Skills</h4>
 								<ul class="attributes">
 								<li class="first">C, C++, C#, Java</li>
@@ -251,9 +264,6 @@ Implementation of true real-time Bilateral Filtering</p>
                                 <li class="first">Basler, Sony, UEye, The Imaging Source and many other industrial cameras</li>
                                 <li class="first">Many industrial vision hardware</li>
 								</ul>
-								<h4>Download My Resume</h4>
-								<button class="btn" onClick="window.open('downloads/tolga-birdal-cv.pdf');" type="submit">
-                                    <i class="fa fa-cloud-download"></i> Download as .PDF</button>
 							</div>
 							<div class="clear"></div>
                 
@@ -422,13 +432,30 @@ The course will start with a short revision of mathematical foundations for nume
 									<div class="infoPost col c3-1 first">
 										<ul class="da-thumbs">
 											<li><a class="box-img-post" href="#">
+												<img src="img/posts/thumb/turbine2.jpg" alt="Reconstructing Energy Turbines" title="Reconstructing Energy Turbines" />
+												<div><span><i class="fa fa-plus circle"></i></span></div>
+											</a></li>
+										</ul>
+									</div>
+									<div class="introTextPost col c3-2">
+										<h4>3D Reconstruction of Large Objects</h4>
+										<p>A major part of my PhD work considered reconstructing very large objects easily using CAD priors. Supported by Siemens AG, the outcome is now deployed in multiple factories, used in real life to inspect turbines against their CAD models (shown on the left). I have received Young Professional Award granted by European Machine Vision Association regarding this product - please check the links on the very left for details.</p>
+                                        <a href="#papp-3drec" class="readmore">Read more &rarr;</a>
+									</div>
+								</article>
+                                <hr />
+                                
+                                <article>
+									<div class="infoPost col c3-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-post" href="#">
 												<img src="img/posts/thumb/multicam.jpg" alt="Multiple Camera Geometry" title="Multiple Camera Geometry" />
 												<div><span><i class="fa fa-plus circle"></i></span></div>
 											</a></li>
 										</ul>
 									</div>
 									<div class="introTextPost col c3-2">
-										<h4>Noncontact 3D Measurement for Automated %100 Inspection</h4>
+										<h4>Non-contact 3D Measurement for Automated %100 Inspection</h4>
 										<p>As part of my external PhD work and for one of our clients, we have developed a non-contact 3D measurement machine, which automatically retrieves the large part to be measured and outputs the measurement report with a 1-1 correspondence to the old fashioned CMMs. The entire project was managed by me. Furthermore the core algorithms for 3D vision and measurement were coded solely by me. The project was a success in satisfying the sharp accuracy and precision demands of the industry.</p>
 									</div>
 								</article>
@@ -1149,10 +1176,10 @@ In the end the visualization was controlled by nine different interactions to cr
 									<p class="caps">
                                         FrozenTime is a novel, repeatable, compact system and architecture for capturing on the fly bullet-time (Matrix like) videos. This system involves >50 cameras to capture a flawless. This software contains:</p><p></p>
 
-                                        <p>- Synchronous video capture</p>
-                                        <p>- On the fly chrome keying</p>
-                                        <p>- State of the art video stabilization</p>
-                                        <p>- Video output with low disk footprint</p>
+                                    <p>- Synchronous video capture</p>
+                                    <p>- On the fly chrome keying</p>
+                                    <p>- State of the art video stabilization</p>
+                                    <p>- Video output with low disk footprint</p>
 
                                    <p> For more information on how Frozen-Time is shot, you might want to check <a href="http://en.wikipedia.org/wiki/Bullet_time" target="wiki_frozentime">this Wikipedia page</a>.
 
@@ -1181,39 +1208,100 @@ This project is used in Coca Cola Advertising Tent and was one of the most inter
 							<div class="col c1-1 first">
 								<h4>Publications</h4>
 								<ul class="attributes">
-									
+                                    <div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+												<img src="img/pub/quadrics.JPG" alt="Quadric Detection" title="Quadric Detection in 3D" />
+											</a></li>
+										</ul>
+									</div>
+                                    <li class="first">
+										<h5>A Minimalist Approach to Type-Agnostic Detection of Quadrics in Point Clouds<span class="period"></span></h5>
+                                        <p><strong>CVPR 2018</strong>: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Salt Lake City, US, 2018</p>
+										<h6><i class="fa fa-user"></i>Tolga Birdal, Benjamin Busam, Nassir Navab, Slobodan Ilic and Peter Sturm</h6>
+                                        <p>This paper proposes a segmentation-free, automatic and  efficient procedure to detect general geometric quadric forms in point clouds, where clutter and occlusions are inevitable. Our everyday world is dominated by man-made objects which are designed using 3D primitives (such as planes, cones, spheres, cylinders, etc.). These objects are also omnipresent in industrial environments. This gives rise to the possibility of abstracting 3D scenes through primitives, thereby positions these geometric forms as an integral part of perception and high level 3D scene understanding. 
+                                            
+                                        As opposed to state-of-the-art, where a tailored algorithm treats each primitive type separately, we propose to encapsulate all types in a single robust detection procedure. At the center of our approach lies a closed form 3D quadric fit, operating in both primal & dual spaces and requiring as low as 4 oriented-points. Around this fit, we design a novel, local null-space voting strategy to reduce the 4-point case to 3. Voting is coupled with the famous RANSAC and makes our algorithm orders of magnitude faster than its conventional counterparts. This is the first method capable of performing a generic cross-type multi-object primitive detection in difficult scenes. Results on synthetic and real datasets support the validity of our method</p>
+                                        <p><a href="downloads/tolga-birdal-cvpr-2018-quadrics.pdf" target="cvpr-2018-quadrics"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
+									</li>
+									<div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+												<img src="img/pub/ppfnet.JPG" alt="PPFNET" title="PPFNET" />
+											</a></li>
+										</ul>
+									</div>
+                                    <li class="first">
+										<h5>PPFNet: Global Context Aware Local Features for Robust 3D Point Matching<span class="period"></span></h5>
+                                        <p><strong>CVPR 2018</strong>: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Salt Lake City, US, 2018</p>
+										<h6><i class="fa fa-user"></i>Haowen Deng, Tolga Birdal, Slobodan Ilic</h6>
+                                        <p>We present PPFNet - Point Pair Feature NETwork for deeply learning a globally informed 3D local feature descriptor to find correspondences in unorganized point clouds. PPFNet learns local descriptors on pure geometry and is highly aware of the global context, an important cue in deep learning. Our 3D representation is computed as a collection of point-pair-features combined with the points and normals within a local vicinity. Our permutation invariant network design is inspired by PointNet and sets PPFNet to be ordering-free. As opposed to voxelization, our method is able to consume raw point clouds to exploit the full sparsity. PPFNet uses a novel N-tuple loss and architecture injecting the global information naturally into the local descriptor. It shows that context awareness also boosts the local feature representation. Qualitative and quantitative evaluations of our network suggest increased recall, improved robustness and invariance as well as a vital step in the 3D descriptor extraction performance.</p>
+                                        <p><a href="downloads/tolga-birdal-cvpr-2018-ppfnet.pdf" target="cvpr-2018-ppfnet"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
+									</li>
+                                    <div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+												<img src="img/pub/reconstruct.JPG" alt="3D CAD Reconstruction" title="3D CAD Reconstruction" />
+											</a></li>
+										</ul>
+									</div>
 									<li class="first">
 										<h5>CAD Priors for Accurate and Flexible Instance Reconstruction<span class="period"></span></h5>
                                         <p>ICCV 2017: IEEE International Conference on Computer Vision, Venice, Italy, 2017</p>
 										<h6><i class="fa fa-user"></i>Tolga Birdal, Slobodan Ilic</h6>
-                                        <p>We present an efficient and automatic approach for accurate instance reconstruction of big 3D objects from multiple, unorganized and unstructured point clouds, in presence of dynamic clutter and occlusions. In contrast to conventional scanning, where the background is assumed to be rather static, we aim at handling dynamic clutter where the background drastically changes during object scanning. Currently, it is tedious to solve this problem with available methods unless the object of interest is first segmented out from the rest of the scene. We address the problem by assuming the availability of a prior CAD model, roughly resembling the object to be reconstructed. This assumption almost always holds in applications such as industrial inspection or reverse engineering. With aid of this prior acting as a proxy, we propose a fully enhanced pipeline, capable of automatically detecting and segmenting the object of interest from scenes and creating a pose graph, online, with linear complexity. This allows initial scan alignment to the CAD model space, which is then refined without the CAD constraint to fully recover a high fidelity 3D reconstruction, accurate up to the sensor noise level. We also contribute a novel object detection method, local implicit shape models (LISM) and give a fast verification scheme. We evaluate our method on multiple datasets, demonstrating the ability to accurately reconstruct objects from small sizes up to $125m^3$.% Our method can provide live feedback and avoid manual interventions.</p>
-                                        <p><a href="downloads/tolga-birdal-iccv-2017-cad-priors.pdf" target="iccv-2017-cad-paper"><b>Article in PDF</b></a></p>
+                                        <p>We present an efficient and automatic approach for accurate instance reconstruction of big 3D objects from multiple, unorganized and unstructured point clouds, in presence of dynamic clutter and occlusions. In contrast to conventional scanning, where the background is assumed to be rather static, we aim at handling dynamic clutter where the background drastically changes during object scanning. Currently, it is tedious to solve this problem with available methods unless the object of interest is first segmented out from the rest of the scene. We address the problem by assuming the availability of a prior CAD model, roughly resembling the object to be reconstructed. This assumption almost always holds in applications such as industrial inspection or reverse engineering. With aid of this prior acting as a proxy, we propose a fully enhanced pipeline, capable of automatically detecting and segmenting the object of interest from scenes and creating a pose graph, online, with linear complexity. This allows initial scan alignment to the CAD model space, which is then refined without the CAD constraint to fully recover a high fidelity 3D reconstruction, accurate up to the sensor noise level. We also contribute a novel object detection method, local implicit shape models (LISM) and give a fast verification scheme. We evaluate our method on multiple datasets, demonstrating the ability to accurately reconstruct objects from small sizes up to 125m3.</p>
+                                        <p><a href="downloads/tolga-birdal-iccv-2017-cad-priors.pdf" target="iccv-2017-cad-priors"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
 									</li>
-									
+									<div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+												<img src="img/pub/dualquat.JPG" alt="Dual Quaternions Pose Filter" title="Dual Quaternions Pose Filter" />
+											</a></li>
+										</ul>
+									</div>
 									<li class="first">
 										<h5>Camera Pose Filtering with Local Regression Geodesics on the Riemannian Manifold of Dual Quaternions<span class="period"></span></h5>
                                         <p>ICCV 2017 Workshop on Multiview Relationships in 3D Data, Venice, Italy, 2017</p>
 										<h6><i class="fa fa-user"></i>Benjamin Busam, Tolga Birdal and Slobodan Ilic</h6>
                                         <p>Time-varying, smooth trajectory estimation is of great interest to the vision community for accurate and well behaving 3D systems. In this paper, we propose a novel principal component local regression filter acting directly on the Riemannian manifold of unit dual quaternions DH1. We use a numerically stable Lie algebra of the dual quaternions together with exp and log operators to locally linearize the 6D pose space. Unlike state of the art path smoothing methods which either operate on SO(3) of rotation matrices or the hypersphere H1 of quaternions, we treat the orientation and translation jointly on the dual quaternion quadric in the 7-dimensional real projective space RP7. We provide an outlier-robust IRLS algorithm for generic pose filtering exploiting this manifold structure. Besides our theoretical analysis, our experiments on synthetic and real data show the practical advantages of the manifold aware filtering on pose tracking and smoothing.</p>
-                                        <p><a href="downloads/tolga-birdal-wiccv-2017-dual-quaternions.pdf" target="wiccv-2017-pose-filter"><b>Article in PDF</b></a></p>
+                                        <p><a href="downloads/tolga-birdal-iccvw-2017-dual-quaternions.pdf" target="iccv-2017-pose-filter"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
 									</li>
-									
+									<div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+												<img src="img/pub/sampling.JPG" alt="3D Point Sampling" title="3D Point Sampling" />
+											</a></li>
+										</ul>
+									</div>
 									<li class="first">
 										<h5>A Point Sampling Algorithm for 3D Matching of Irregular Geometries<span class="period"></span></h5>
                                         <p>IROS 2017: IEEE International Conference on Computer Vision, Vancouver, Canada, 2017</p>
 										<h6><i class="fa fa-user"></i>Tolga Birdal, Slobodan Ilic</h6>
                                         <p>We present a 3D mesh re-sampling algorithm, carefully tailored for 3D object detection using point pair features (PPF). Computing a sparse representation of objects is critical for the success of state-of-the-art object detection, recognition and pose estimation methods. Yet, sparsity needs to preserve fidelity. To this end, we develop a simple, yet very effective point sampling strategy for detection of any CAD model through geometric hashing. Our approach relies on rendering the object coordinates from a set of views evenly distributed on a sphere. Actual sampling takes place on 2D domain over these renderings; the resulting samples are efficiently merged in 3D with the aid of a special voxel structure and relaxed with Lloyd iterations. The generated vertices are not concentrated only on critical points, as in many keypoint extraction algorithms, and there is even spacing between selected vertices. This is valuable for quantization based detection methods, such as geometric hashing of point pair features. The algorithm is fast and can easily handle the elongated/acute triangles and sharp edges typically existent in industrial CAD models, while automatically pruning the invisible structures. We do not introduce structural changes such as smoothing or interpolation and sample the normals on the original CAD model, achieving the maximum fidelity. We demonstrate the strength of this approach on 3D object detection in comparison to similar sampling algorithms.</p>
-                                        <p><a href="downloads/tolga-birdal-iros-2017-cad-sampling.pdf" target="iros-2017-cad-paper"><b>Article in PDF</b></a></p>
+                                        <p><a href="downloads/tolga-birdal-iros-2017-cad-sampling.pdf" target="iros-2017-cad-paper"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
 									</li>
-									
+									<div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+												<img src="img/pub/xtag.JPG" alt="X-Tag" title="X-Tag" />
+											</a></li>
+										</ul>
+									</div>
                                     <li class="first">
 										<h5>X-Tag: A Fiducial Tag for Flexible and Accurate Bundle Adjustment<span class="period"></span></h5>
                                         <p>3DV 2016: IEEE International Conference on 3D Vision (3DV), Stanford, CA, 2016</p>
 										<h6><i class="fa fa-user"></i>Tolga Birdal, Ievgeniia Dobryden, Slobodan Ilic</h6>
                                         <p>In this paper we design a novel planar 2D fiducial
 marker and develop fast detection algorithm aiming easy camera calibration and precise 3D reconstruction at the marker locations via the bundle adjustment. Even though an abundance of planar fiducial markers have been made and used in various tasks, none of them has properties necessary to solve the aforementioned tasks. Our marker, Xtag, enjoys a novel design, coupled with very efficient and robust detection scheme, resulting in a reduced number of false positives. This is achieved by constructing markers with random circular features in the image domain and encoding them using two true perspective invariants: crossratios and intersection preservation constraints. To detect the markers, we developed an effective search scheme, similar to Geometric Hashing and Hough Voting, in which the marker decoding is cast as a retrieval problem. We apply our system to the task of camera calibration and bundle adjustment. With qualitative and quantitative experiments, we demonstrate the robustness and accuracy of X-tag in spite of blur, noise, perspective and radial distortions, and showcase camera calibration, bundle adjustment and 3d fusion of depth data from precise extrinsic camera poses.</p>
-                                        <p><a href="downloads/tolga-birdal-3dv-2016-xtag.pdf" target="3dv-2016-xtag-paper"><b>Article in PDF</b></a></p>
+                                        <p><a href="downloads/tolga-birdal-3dv-2016-xtag.pdf" target="3dv-2016-xtag"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
 									</li>
+                                    <div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+												<img src="img/pub/camgroups.JPG" alt="Sparse Coodrinate Measurement" title="Sparse Coodrinate Measurement" />
+											</a></li>
+										</ul>
+									</div>
                                     <li class="first">
 										<h5>Online Inspection of 3D Parts via a Locally Overlapping Camera Network<span class="period"></span></h5>
                                         <p>WACV 2016: IEEE Winter Conference on Applications of Computer Vision</p>
@@ -1231,11 +1319,18 @@ the implementation of an involved 3D metrology system, we
 also demonstrate that the resulting inspection is as accurate
 as 0 .2 mm, repeatable and much faster, compared to the existing methods such as coordinate measurement machines
 (CMM) or ATOS.</p>
-                                        <p><a href="downloads/birdal-wacv-2016.pdf" target="wacv-paper"><b>Article in PDF</b></a></p>
+                                        <p><a href="downloads/birdal-wacv-2016.pdf" target="wacv-paper"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
 									</li>
+                                    <div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+												<img src="img/pub/ppf.JPG" alt="Point Pair Features" title="Point Pair Features" />
+											</a></li>
+										</ul>
+									</div>
                                     <li class="first">
 										<h5>Point Pair Features Based Object Detection and Pose Estimation Revisited<span class="period"></span></h5>
-                                        <p>IEEE International Conference on 3D Vision (3DV), Lyon, France, 2015</p>
+                                        <p>3DV 2015: IEEE International Conference on 3D Vision, Lyon, France</p>
 										<h6><i class="fa fa-user"></i>Tolga Birdal, Slobodan Ilic</h6>
 										<p>We present a revised pipe-line of the existing 3D object detection and pose estimation framework based on point
 pair feature matching. This framework proposed to represent 3D target object using self-similar point pairs, and then
@@ -1263,15 +1358,21 @@ thus achieves better compromise of speed vs accuracy. We
 demonstrate our method on existing datasets as well as on
 our scenes. We conclude that via the new pipe-line, point
 pair features can now be used in more challenging scenarios.</p>
-                                        <p><a href="downloads/birdal-3dv-2015.pdf" target="3dv-paper"><b>Article in PDF</b></a></p>
+                                        <p><a href="downloads/birdal-3dv-2015.pdf" target="3dv-paper"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
 									</li>
-                                    
+                                    <div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+												<img src="img/pub/barcode.JPG" alt="Barcode Decoding" title="Barcode Decoding" />
+											</a></li>
+										</ul>
+									</div>
                                     <li class="first">
 										<h5>A Unified Probabilistic Framework For Robust Decoding Of Linear Barcodes<span class="period"></span></h5>
-                                        <p>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Brisbane, Australia, 2015</p>
+                                        <p>ICASSP 2015: IEEE International Conference on Acoustics, Speech, and Signal Processing, Brisbane, Australia</p>
 										<h6><i class="fa fa-user"></i>Umut Simsekli, Tolga Birdal</h6>
 										<p>Both consumer market and manufacturing industry makes heavy use of 1D (linear) barcodes. From helping the visually impaired to identifying the products to industrial automated industry management, barcodes are the prevalent source of item tracing technology. Because of this ubiquitous use, in recent years, many algorithms have been proposed targeting barcode decoding from high-accessibility devices such as cameras. However, the current methods have at least one of the two major problems: 1) they are sensitive to blur, perspective/lens distortions, and non-linear deformations, which often occur in practice, 2) they are specifically designed for a specific barcode symbology (such as UPC-A) and cannot be applied to other symbologies. In this paper, we aim to address these problems and present a dynamic Bayesian network in order to robustly model all kinds of linear progressive barcodes. We apply our method on various barcode datasets and compare the performance with the state-of-the-art. Our experiments show that, as well as being applicable to all progressive barcode types, our method provides competitive results in clean UPC-A datasets and outperforms the state-of-the-art in difficult scenarios.</p>
-                                        <p><a href="downloads/tolga-birdal-icassp-2015.pdf" target="icassp-paper"><b>Article in PDF</b></a></p>
+                                        <p><a href="downloads/tolga-birdal-icassp-2015.pdf" target="icassp-paper"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
 									</li>
                                     
 									<li class="first">
@@ -1294,9 +1395,15 @@ a pipeline for generating synthetic data and performed error
 analysis and comparison to original range flow approach. The
 results show that our method is accurate and precise enough
 to track significant deformation smoothly at near real-time performance. </p>
-                                        <p><a href="downloads/tolga-birdal-iros-2012-submission.pdf" target="iros-paper">Article in PDF</a></p>
+                                        <p><a href="downloads/tolga-birdal-iros-2012-submission.pdf" target="ıros-paper"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
 									</li>
-                                    
+                                    <div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+												<img src="img/pub/vector.JPG" alt="Image Vectorization" title="Image Vectorization" />
+											</a></li>
+										</ul>
+									</div>
                                      <li class="first">
 										<h5>A Novel Method For Image Vectorization<span class="period"></span></h5>
                                         <p>arXiv:1403.0728</p>
@@ -1306,14 +1413,17 @@ and computer vision communities. In this paper we are presenting a novel idea fo
 images, based on Catmull Rom spline fitting. The algorithm maintains a good balance between photo-realism and photo abstraction,
 and hence is applicable to applications with artistic concerns or applications where less information loss is crucial. The resulting algorithm is fast, parallelizable and can satisfy general soft realtime
 requirements. Moreover, the smoothness of the vectorized images
-aesthetically outperforms outputs of many polygon-based methods.<p>Keywords: vectorization, vector conversion, image processing,
-segmentation  </p></p><p><a href="downloads/tolga-birdal-realtime-vectorization.pdf" alt="A Novel Method For Image Vectorization" title="A Novel Method For Image Vectorization" target="arxiv-paper">Article in PDF</a></p>
+aesthetically outperforms outputs of many polygon-based methods.
+                                <p><a href="downloads/tolga-birdal-realtime-vectorization.pdf" alt="A Novel Method For Image Vectorization" title="A Novel Method For Image Vectorization" target="vector-paper"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
 									</li>
-                                    
-                          
-        
-                                    
-                                    <li class="first">
+                                    <div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+												<img src="img/pub/felic.JPG" alt="FELIC" title="FELIC" />
+											</a></li>
+										</ul>
+									</div>
+                                <li class="first">
 										<h5>Flow Enhancing Line Integral Convolution Filter<span class="period"></span></h5>
                                         <p>ICIP 2010</p>
 										<h6><i class="fa fa-user"></i>Tolga Birdal, Emrah Bala</h6>
@@ -1328,7 +1438,8 @@ method. We propose a new vector ﬁeld based on ﬂow ﬁelds
 to use with LIC. This new hybrid technique is called ﬂow
 enhancing line integral convolution ﬁltering (FELIC) and it
 is highly capable of smoothing an image and generating high
-ﬁdelity textures. </p><p><a href="downloads/tolga-birdal-flow-lic-icip-2010.pdf" alt="Flow Enhancing Line Integral Convolution Filter" title="Flow Enhancing Line Integral Convolution Filter" target="icip_paper">Article in PDF</a></p>
+ﬁdelity textures. </p>
+                                    <p><a href="downloads/tolga-birdal-flow-lic-icip-2010.pdf" alt="Flow Enhancing Line Integral Convolution Filter" title="Flow Enhancing Line Integral Convolution Filter" target="icip_paper"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
 									</li>
                                     
                                     <li class="first">
@@ -1348,7 +1459,8 @@ model fits the data, we randomly erase some parts of a real data
 set that is gathered from an online food ordering service, and
 we reconstruct the erased parts by using the NMF model. We
 report the mean squared errors for different parameter settings
-and different divergences. </p><p><a href="downloads/siu2013recommendation.pdf" target="siu-paper">Article in PDF (Turkish)</a></p>
+and different divergences. </p>
+                                        <p><a href="downloads/siu2013recommendation.pdf" target="siu_paper"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
 									</li>
                                     
                                     <li class="first">
@@ -1371,7 +1483,8 @@ processing algorithms are used to segment lanes, and
 moving cars are extracted with the help of background 
 modeling and estimation. The techniques developed have 
 been tested in real road images and the results are 
-presented.</p><p><a href="downloads/dspincars2007.pdf" target="dspincars_paper">Article in PDF</a></p>
+presented.</p>
+                                        <p><a href="downloads/dspincars2007.pdf" target="dspincars_paper"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
 									</li>
                                     
 								</ul>
@@ -1385,7 +1498,7 @@ presented.</p><p><a href="downloads/dspincars2007.pdf" target="dspincars_paper">
                                         <p>United States 20090219298 - 2009</p>
 										<h6><i class="fa fa-user"></i>Tolga Birdal, Mehmet Ozkanoglu, Abdi Tekin Tatar</h6>
 										<p>A method and system for generating user-accessible effects. The method includes receiving a library of operators, each operator including a set of operations performable on an image. The method includes receiving an effect definition from a designer via a graphical user interface, wherein the effect definition includes a set of operators from the library to be executed on a user-provided image and parameters associated with each operator. The method includes saving the effect definition to an accessible memory. The method includes uploading the effect definition to a server wherein the effect definition is accessible to a user over a network.
-</p><p><a href="https://www.google.com/patents/US20090219298" target="patent1">Visit Patent Webpage</a></p>
+</p><p><a href="https://www.google.com/patents/US20090219298" target="patent1"><b><h6><font color="#C45906" size="3">Visit Patent Website</font></h6></b></a></p>
 									</li>
                                     
 									<li class="first">
@@ -1393,7 +1506,7 @@ presented.</p><p><a href="downloads/dspincars2007.pdf" target="dspincars_paper">
                                         <p>United States Patent 20100223565 - 2010</p>
 										<h6><i class="fa fa-user"></i>Tolga Birdal, Emrah Bala, Emre Koc, Mehmet Ozkanoglu, Abdi Tekin Tatar</h6>
 										<p>A method and system for generating user-accessible effects. The method includes receiving a library of operators, each operator including a set of operations performable on an image. The method includes receiving an effect definition from a designer via a graphical user interface, wherein the effect definition includes a set of operators from the library to be executed on a user-provided image and parameters associated with each operator. The method includes saving the effect definition to an accessible memory. The method includes uploading the effect definition to a servers wherein the effect definition is accessible to a user over a network
-</p><p><a href="http://www.faqs.org/patents/app/20100223565#ixzz13Vi7rRZM" target="patent2">Visit Patent Webpage</a></p>
+</p><p><a href="http://www.faqs.org/patents/app/20100223565#ixzz13Vi7rRZM" target="patent2"><b><h6><font color="#C45906" size="3">Visit Patent Website</font></h6></b></a></p>
 									</li>                                    
                                    
 								</ul>
@@ -1411,7 +1524,7 @@ In this thesis, we study the problem of 3D deformable surface reconstruction wit
 The contribution of this thesis is three-fold. We start by proposing a new but straightforward algorithm for automatically segmenting a surface of interest from RGB-D data, which we use to initialize our tracker. Next, we take an existing surface flow framework called range flow, then improve and adapt it for our case of 3D deformation capture. This step is nothing but a surface-flow tracker. Finally, to make this tracker more robust against noise, we propose a mass spring model based post filter. The post processing step acts as a model based constraint which attracts the individual vertices together to form an inextensible tracking capability. Our post filter is chosen to be
 a cloth model, which is very well-studied in the realm of computer graphics. Last but not least, we thoroughly discuss the results and how the system behaves. The algorithm performs soft-real-time when implemented on a CPU. We also explain the parallelization aspects while paving the way for a real-time implementation on the GPU. Overall, we present a fundamental system for 3D tracking of deformable surfaces. As well as being
 extendible, we show that there is also room for various improvements and advancements.
-</p><p><a href="downloads/tolga-birdal-master-thesis.pdf" target="thesis_1">My Master Thesis</a></p>
+</p><p><a href="downloads/tolga-birdal-master-thesis.pdf" target="thesis_1"><b><h6><font color="#C45906" size="3">My Masters Thesis</font></h6></b></a></p>
 									</li>
                                    
 								</ul>
