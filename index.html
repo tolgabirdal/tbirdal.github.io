@@ -63,7 +63,8 @@
                             <h3>News</h3>
       
   <ul style="background-color:#000000">
-  <p><li style="background-color:#000000"><a href="https://mvr3d.github.io" style="background-color:#000000">- I happily co-organized ICCV 2017 Workshop on Multiview Relationships in 3D Data.</a></li><p>
+        <p><li style="background-color:#000000"><a href="https://profiles.stanford.edu/tolga-birdal" style="background-color:#000000">- I moved to Stanfor to further my research within the Geometric Computing Group.</a></li><p>
+      <p><li style="background-color:#000000"><a href="https://mvr3d.github.io" style="background-color:#000000">- I happily co-organized ICCV 2017 Workshop on Multiview Relationships in 3D Data.</a></li><p>
       <p><li style="background-color:#000000"><a href="https://www.imveurope.com/news/analysis-opinion/rethinking-3d-vision" style="background-color:#000000">- Rethinking 3D Vision - IMV Europe Opinion Analysis.</a></li><p>
     <p><li style="background-color:#000000"><a href="http://www.imveurope.com/features/feature.php?feature_id=327" style="background-color:#000000">- My interview on IMV Europe.</a></li><p>
    <p> <li style="background-color:#000000"><article style="background-color:#000000"><a href="http://www.vision-systems.com/articles/2016/06/emva-2016-young-profesional-award-given-for-3d-reconstruction-framework.html" style="background-color:#000000">- I received EMVA Young Profesional Award 2016.</a></article></li><p>
@@ -162,7 +163,13 @@
 								<h4>Employment</h4>
 								<ul class="attributes">
                                     <li class="first">
-                                    <h5>Doktorand<span class="period">2014 - Present</span></h5>
+                                        <h5>Postdoctoral Research Fellow<span class="period">2019 - Present</span></h5>
+										<h6><i class="fa fa-suitcase"></i>Stanford University</h6>
+                                        <p>I am a member of the geometric computing group. My current research involves a diverse spectrum from geometry of high dimensional entities to 3D deep learning.
+										</p>
+                                        </li>
+                                    <li class="first">
+                                        <h5>Doktorand<span class="period">2014 - 2018</span></h5>
 										<h6><i class="fa fa-suitcase"></i>Siemens AG</h6>
                                         <p>Siemens proudly sponsors my PhD studies on 3D object detection and reconstruction using CAD models.
 										</p>
@@ -224,10 +231,10 @@ Implementation of true real-time Bilateral Filtering</p>
 								<h4>Education</h4>
 								<ul class="attributes last">
 									<li class="first">
-										<h5>Ph.D. Candidate in Mathematics & Computer Science<p></p><span class="period">2013 - Present</span></h5>
+										<h5>Ph.D. Candidate in Mathematics & Computer Science<p></p><span class="period">2014 - 2018</span></h5>
 										<h6><i class="fa fa-book"></i>Technical University of Munich</h6>
 										<p><b>Doctor Rerum Naturalium (PhD)</b></p>
-                                        <p>Thesis: Measuring Deforming 3D Shapes Using Non-Overlapping Multiple View Geometry</p>
+                                        <p>Thesis: Geometric Methods for 3D Reconstruction from Large Point Clouds</p>
 									</li>
 									<li>
 										<h5>M.Sc. in Computational Science & Engineering<p></p><span class="period">2008 - 2011</span></h5>
@@ -1212,15 +1219,78 @@ This project is used in Coca Cola Advertising Tent and was one of the most inter
 					<section id="publications-page" class="content">
 						<div class="inner">
 							<div class="col c1-1 first">
-								<h4>Publications</h4>
+								<h4>Selected Publications</h4>
 								<ul class="attributes">
+                                    
                                     <div class="infoPost col c2-1 first">
 										<ul class="da-thumbs">
 											<li><a class="box-img-pub">
-												<img src="img/pub/neurips2018.JPG" alt="Pose Graph Optimization" title="Probabilistic Pose Graph Optimization" />
+                                                <img src="img/pub/ambiguity.JPG" alt="Ambiguity in Pose Estimation" title="Ambiguity in Pose Estimation" />
 											</a></li>
 										</ul>
 									</div>
+                                    
+                                    <li class="first">
+										<h5>Explaining the Ambiguity of Object Detection and 6D Pose from Visual Data<span class="period"></span></h5>
+                                        <p><strong> ICCV 2019</strong>: IEEE International Conference on Computer Vision, Seoul, Korea, 2019</p>
+										<h6><i class="fa fa-user"></i>Fabian Manhardt, Diego Martin Arroyo, Christian Rupprecht, Benjamin Busam, Tolga Birdal, Nassir Navab and Federico Tombari</h6>
+                                        <p>3D object detection and pose estimation from a single image are two inherently ambiguous problems. Oftentimes, objects appear similar from different viewpoints due to shape symmetries, occlusion and repetitive textures. This ambiguity in both detection and pose estimation means that an object instance can be perfectly described by several different poses and even classes. In this work we propose to explicitly deal with this uncertainty. For each object instance we predict multiple pose and class outcomes to estimate the specific pose distribution generated by symmetries and repetitive textures. The distribution collapses to a single outcome when the visual appearance uniquely identifies just one valid pose. We show the benefits of our approach which provides not only a better explanation for pose ambiguity, but also a higher accuracy in terms of pose estimation.</p>
+                                        <p><a href="https://arxiv.org/pdf/1812.00287.pdf" target="iccv-2019-explaining"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
+									</li>   
+                                    
+                                    <div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+                                                <img src="img/pub/permsync.JPG" alt="Permutation Synchronization" title="Permutation Synchronization: Birkhoff-RLMC" />
+											</a></li>
+										</ul>
+									</div>
+                                    
+                                    <li class="first">
+										<h5>Probabilistic Permutation Synchronization using the Riemannian Structure of the Birkhoff Polytope<span class="period"></span></h5>
+                                        <p><strong> CVPR 2019</strong>: IEEE Conference on Computer Vision and Pattern Recognition, Long Beach, USA, 2019</p>
+										<h6><i class="fa fa-user"></i>Tolga Birdal and Umut Şimşekli</h6>
+                                        <p>We present an entirely new geometric and probabilistic approach to synchronization of correspondences across multiple sets of objects or images. In particular, we present two algorithms:(1) Birkhoff-Riemannian L-BFGS for optimizing the relaxed version of the combinatorially intractable cycle consistency loss in a principled manner,(2) Birkhoff-Riemannian Langevin Monte Carlo for generating samples on the Birkhoff Polytope and estimating the confidence of the found solutions. To this end, we first introduce the very recently developed Riemannian geometry of the Birkhoff Polytope. Next, we introduce a new probabilistic synchronization model in the form of a Markov Random Field (MRF). Finally, based on the first order retraction operators, we formulate our problem as simulating a stochastic differential equation and devise new integrators. We show on both synthetic and real datasets that we achieve high quality multi-graph matching results with faster convergence and reliable confidence/uncertainty estimates.</p>
+                                        <p><a href="https://arxiv.org/pdf/1904.05814.pdf" target="cvpr-2019-probabilistic"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
+									</li>                         
+                                    <div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+                                                <img src="img/pub/3dfeat.JPG" alt="3D Local Features" title="3D Local Features for Direct Registration" />
+											</a></li>
+										</ul>
+									</div>
+                                    
+                                    <li class="first">
+										<h5>3D Local Features for Direct Pairwise Registration<span class="period"></span></h5>
+                                        <p><strong> CVPR 2019</strong>: IEEE Conference on Computer Vision and Pattern Recognition, Long Beach, USA, 2019</p>
+										<h6><i class="fa fa-user"></i>Haowen Deng, Tolga Birdal and Slobodan Ilic</h6>
+                                        <p>We present a novel, data driven approach for solving the problem of registration of two point cloud scans. Our approach is direct in the sense that a single pair of corresponding local patches already provides the necessary transformation cue for the global registration. To achieve that, we first endow the state of the art PPF-FoldNet auto-encoder (AE) with a pose-variant sibling, where the discrepancy between the two leads to pose-specific descriptors. Based upon this, we introduce RelativeNet, a relative pose estimation network to assign correspondence-specific orientations to the keypoints, eliminating any local reference frame computations. Finally, we devise a simple yet effective hypothesize-and-verify algorithm to quickly use the predictions and align two point sets. Our extensive quantitative and qualitative experiments suggests that our approach outperforms the state of the art in challenging real datasets of pairwise registration and that augmenting the keypoints with local pose information leads to better generalization and a dramatic speed-up.</p>
+                                        <p><a href="https://arxiv.org/pdf/1904.04281.pdf" target="cvpr-2019-3d-local"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
+									</li>                         
+                                    <div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+                                                <img src="img/pub/capsule.JPG" alt="3D Point Capsule Networks" title="3D Point Capsule Networks" />
+											</a></li>
+										</ul>
+									</div>
+                                    
+                                    <li class="first">
+										<h5>3D Point Capsule Networks<span class="period"></span></h5>
+                                        <p><strong> CVPR 2019</strong>: IEEE Conference on Computer Vision and Pattern Recognition, Long Beach, USA, 2019</p>
+										<h6><i class="fa fa-user"></i>Yongheng Zhao, Tolga Birdal, Haowen Deng and Federico Tombari</h6>
+                                        <p>In this paper, we propose 3D point-capsule networks, an auto-encoder designed to process sparse 3D point clouds while preserving spatial arrangements of the input data. 3D capsule networks arise as a direct consequence of our unified formulation of the common 3D auto-encoders. The dynamic routing scheme and the peculiar 2D latent space deployed by our capsule networks bring in improvements for several common point cloud-related tasks, such as object classification, object reconstruction and part segmentation as substantiated by our extensive evaluations. Moreover, it enables new applications such as part interpolation and replacement.</p>
+                                        <p><a href="https://arxiv.org/pdf/1812.10775.pdf" target="cvpr-2019-3d-point"><b><h6><font color="#C45906" size="3">Article in PDF</font></h6></b></a></p>
+									</li>                         
+                                    <div class="infoPost col c2-1 first">
+										<ul class="da-thumbs">
+											<li><a class="box-img-pub">
+                                                <img src="img/pub/neurips2018.JPG" alt="Pose Graph Optimization" title="Probabilistic Pose Graph Optimization" />
+											</a></li>
+										</ul>
+									</div>
+                                    
                                     <li class="first">
 										<h5>Bayesian Pose Graph Optimization via Bingham Distributions and Tempered Geodesic MCMC<span class="period"></span></h5>
                                         <p><strong> NeurIPS 2018</strong>: 32nd Conference on Neural Information Processing Systems, Montréal, Canada, 2018</p>
